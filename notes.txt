@@ -1,0 +1,16 @@
+commands:
+- create new django environment with django package using conda
+- activate environment (may happen automatically)
+- you need 'source' before your commands in mac/linux
+
+To start first project: django-admin startproject first_project
+Running for the first time:
+- python/python3 manage.py runserver
+- make sure django is installed using pip install django or pip3 install django in your environment
+- there may be unapplied migrations
+- copy URL path to browser
+- turn DEBUG=false during deployment
+
+Creating your first app:
+- python/python3 manage.py startapp first_app  -  create first app
+- let project know that application exists using settings - add app in
